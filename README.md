@@ -54,8 +54,3 @@ So go and check it out!
         <td>22 mei / 16:00 - 17:00</td>
     </tr>
 </table>
-
-* https://github.com/muise001/Weekly_Nerd#bruce-lawson---w3c-over-webstandards
-* https://medium.com/@vincentkempers_/my-experience-at-nlhtml5-x-cssday-df855997a191
-
-
