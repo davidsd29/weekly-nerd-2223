@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="../images/logo.png" />
+		<link rel="stylesheet" href="../css/articles.css" />
+		<title>Animeren</title>
+	</head>
+
+	<body>
+		<a class="back-home" href="../index.html">Terug naar het Overzicht</a>
+		<article class="animeren">
+			<header>
+				<h1>Animeren in JS en CSS</h1>
+				<span>Zelfstudie</span>
+			</header>
+
+			<p>
+				Animatie is een krachtig hulpmiddel dat webontwikkelaars kunnen
+				gebruiken om interactieve en aantrekkelijke gebruikerservaringen te
+				creëren. Bij het coderen zijn er twee populaire opties voor het
+				implementeren van animatie: CSS en JavaScript. In dit artikel
+				verkennen we animatie in CSS en JavaScript, vergelijken we hun
+				mogelijkheden en bieden we een lijst met handige bronnen om verder
+				te leren.
+			</p>
+
+			<h2>Animeren in CSS</h2>
+
+			<p>
+				CSS (Cascading Style Sheets) biedt ingebouwde mogelijkheden om
+				elementen op het web te animeren. Het maakt gebruik van de
+				`@keyframes`-regel en de `animation`-eigenschap om de gewenste
+				effecten te definiëren. Enkele belangrijke punten om te overwegen
+				bij het animeren in CSS zijn:
+			</p>
+
+			<ol>
+				<li>
+					<p>
+						<strong>Compatibiliteit</strong> <br />
+						CSS-animaties worden ondersteund door alle moderne browsers.
+						Ze kunnen echter niet worden gebruikt om complexe animaties te
+						maken, omdat ze beperkt zijn tot het definiëren van
+						sleutelframes en eigenschapsovergangen.
+					</p>
+				</li>
+				<li>
+					<p>
+						<strong> Performance</strong> CSS-animaties zijn over het
+						algemeen soepeler en beter presterend dan
+						JavaScript-animaties. Ze zijn echter beperkt tot eenvoudige
+						overgangen en kunnen niet worden gebruikt voor complexe
+						animaties.
+					</p>
+				</li>
+				<li>
+					<p>
+						<strong> Flexibiliteit en interactiviteit</strong> <br />
+						CSS-animaties zijn eenvoudig te implementeren en te gebruiken.
+						Ze bieden echter niet veel flexibiliteit en interactiviteit,
+						omdat ze beperkt zijn tot het definiëren van sleutelframes en
+						eigenschapsovergangen.
+					</p>
+				</li>
+
+				<li>
+					<p>
+						<strong> Sleutelframes (Keyframes)</strong> <br />
+						CSS-animaties definiëren een reeks sleutelframes die de
+						overgangen en stappen van de animatie beschrijven. Met behulp
+						van de `@keyframes`-regel kunnen ontwikkelaars de
+						eigenschappen van een element op specifieke tijdstippen in de
+						animatie definiëren.
+					</p>
+				</li>
+				<li>
+					<p>
+						<strong> Eigenschapsovergangen</strong> <br />
+						CSS maakt het mogelijk om overgangen van eigenschappen soepel
+						te maken met behulp van de `transition`-eigenschap. Hiermee
+						kunnen ontwikkelaars de overgangstijd, timingfuncties en
+						andere parameters aanpassen om de gewenste animatie-effecten
+						te bereiken.
+					</p>
+				</li>
+			</ol>
+
+			<h2>Animeren in JavaScript</h2>
+
+			<p>
+				JavaScript biedt een uitgebreide programmeerbare omgeving voor het
+				beheren van animaties. Het maakt gebruik van de
+				`requestAnimationFrame`-methode en biedt toegang tot de DOM
+				(Document Object Model) om elementen dynamisch te wijzigen en te
+				animeren. Hier zijn enkele belangrijke aspecten van animatie in
+				JavaScript:
+			</p>
+
+			<ol>
+				<li>
+					<p>
+						<strong>Tijdgebaseerde animaties</strong> <br />
+						Met JavaScript kunnen ontwikkelaars animaties aansturen op
+						basis van de tijd, wat nauwkeurigere en complexere effecten
+						mogelijk maakt. De `requestAnimationFrame`-methode wordt vaak
+						gebruikt om de framesnelheid van de animatie te optimaliseren
+						en om synchronisatie met andere browsergebeurtenissen te
+						garanderen.
+					</p>
+				</li>
+				<li>
+					<p>
+						<strong> Flexibiliteit en interactiviteit</strong> <br />
+						JavaScript geeft ontwikkelaars de vrijheid om complexe
+						animaties en interactieve elementen te creëren. Met behulp van
+						programmeerlogica kunnen animaties worden getriggerd door
+						gebeurtenissen zoals gebruikersinteractie of het bereiken van
+						bepaalde voorwaarden.
+					</p>
+				</li>
+			</ol>
+
+			<h2>Verschillen tussen CSS en JavaScript-animatie</h2>
+			<p>
+				Hoewel zowel CSS als JavaScript animatie mogelijk maken, zijn er
+				enkele verschillen die de keuze kunnen beïnvloeden:
+			</p>
+
+			<ol>
+				<li>
+					<p>
+						<strong>Complexiteit en flexibiliteit</strong> <br />
+						JavaScript biedt meer mogelijkheden voor complexe animaties en
+						interactiviteit, maar het vergt ook meer programmeerkennis en
+						-vaardigheden. CSS-animatie is vaak eenvoudiger in gebruik en
+						implementatie.
+					</p>
+				</li>
+				<li>
+					<p>
+						<strong>Performance</strong> <br />
+						CSS-animaties kunnen over het algemeen soepeler en beter
+						presteren, vooral als het gaat om eenvoudige overgangen.
+						JavaScript-animaties kunnen echter beter schalen naar complexe
+						scenario's en bieden meer controle over de animatieprocessen.
+					</p>
+				</li>
+				<li>
+					<p>
+						<strong> Browsercompatibiliteit</strong> <br />
+						CSS-animaties worden over het algemeen beter ondersteund door
+						moderne browsers. JavaScript-animaties kunnen echter beter
+						werken op oudere browsers en bieden meer mogelijkheden voor
+						het omgaan met verschillende omgevingen.
+					</p>
+				</li>
+			</ol>
+
+			<h2>Conclusie</h2>
+			<p>
+				Animatie is een krachtig instrument bij het coderen, waarmee
+				ontwikkelaars interactieve en boeiende gebruikerservaringen kunnen
+				creëren. Zowel CSS als JavaScript bieden mogelijkheden voor
+				animatie, elk met hun eigen voor- en nadelen. Door de eigenschappen
+				en mogelijkheden van beide benaderingen te begrijpen, kun je de
+				juiste keuze maken op basis van de specifieke vereisten van je
+				project. Vergeet niet om de vermelde bronnen te raadplegen voor
+				verdere verdieping in animatie met CSS en JavaScript.
+			</p>
+
+			<h2>Bronnenlijst</h2>
+
+			<ol>
+				<li>
+					CSS Animations: Getting Started - MDN Web Docs
+					<a
+						href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Getting_started"
+						>Link</a
+					>
+				</li>
+				<li>
+					Animations - CSS-Tricks
+					<a href="https://css-tricks.com/almanac/properties/a/animation/"
+						>Link</a
+					>
+				</li>
+				<li>
+					Animate.css - A Library of Predefined CSS Animations
+					<a href="https://animate.style/">Link</a>
+				</li>
+				<li>
+					JavaScript Animations - MDN Web Docs
+					<a
+						href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API"
+						>Link</a
+					>
+				</li>
+			</ol>
+		</article>
+	</body>
+</html>

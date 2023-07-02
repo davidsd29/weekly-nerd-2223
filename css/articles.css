@@ -1,0 +1,105 @@
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+	margin: 0 auto;
+	height: 100vh;
+	font-size: 16px;
+	background: url('../images/stars.png');
+	background-size: 700px;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+article {
+	text-align: left;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 1em 2em;
+	font-size: 1.5em;
+	height: auto;
+	overflow-y: scroll;
+}
+
+article h1 {
+	max-width: 12em;
+}
+
+article header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+article span {
+	font-size: 1.2em;
+	color: #08fdd8;
+}
+
+article p,
+article h2 {
+	margin-bottom: 1em;
+}
+
+article ol li {
+	margin-left: 1em;
+}
+
+article a {
+	color: #08fdd8;
+	font-weight: 600;
+}
+
+article a:hover {
+	color: #e60de6;
+}
+
+.back-home {
+    text-align: center;
+	padding: 1em;
+	font-size: 2em;
+	color: #08fdd8;
+	box-shadow: 0 0 1.5em 0.25em #fff;
+}
+
+.back-home:hover {
+	color: #e60de6;
+}
+
+.aaron li::before {
+	content: '\2022';
+	color: #e60de6;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+.handoff {
+	display: flex;
+	gap: 1em;
+}
+
+.handoff p {
+	font-size: 1.2em;
+	max-width: 10em;
+}
+
+.handoff strong {
+	color: #e60de6;
+}
+
+.animeren strong {
+	color: #08fdd8;
+}
